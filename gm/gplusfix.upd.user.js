@@ -5,10 +5,3 @@
 // @updateURL https://github.com/noccy80/scripts/raw/master/gm/gplusfix.upd.user.js
 // @downloadURL https://github.com/noccy80/scripts/raw/master/gm/gplusfix.user.js
 
-try {
-    var cdiv = document.getElementById('contentPane');
-    if (cdiv) {
-        cdiv.style.maxWidth = '1000px';
-        cdiv.style.margin = 'auto';
-    }
-} catch(e) { }
